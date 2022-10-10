@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+$primary-color: hsl(215, 51%, 70%);
+$secondary-color: hsl(178, 100%, 50%);
+
+$main-background: hsl(217, 54%, 11%);
+$card-background: hsl(216, 50%, 16%);
+$line-color: hsl(215, 32%, 27%);
+$white: hsl(0, 0%, 100%);
+
+$font-size: 18px;
+
+html, body,
+h1, p, img
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: $main-background;
+    font-size: $font-size;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: $card-background;
+    border: 0;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+    font-family: 'Outfit', sans-serif;
+    margin: 0 auto;
+    width: 350px;
+    height: 596px;
+
+    .row{
+        margin: 24px 24px 0 24px;
+
+        &:nth-child(1){
+            width: 302px;
+            height: 302px;
+        }
+
+        &:nth-child(4){
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: auto;
+        }
+        
+        img{
+            width: 100%;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+
+        h1{
+            color: $white;
+            font-weight: 600;
+            font-size: 22px;
+        }
+
+        p{
+            color: $primary-color;
+            font-weight: 300;
+            line-height: 26px;
+        }
+
+        .column{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: $secondary-color;
+            font-weight: 600;
+
+            span{
+                display: block;
+                line-height: 20px;
+            }
+
+            .tiny-icon{
+                width: 16px;
+                height: 16px;
+                margin-right: 6.48px;
+            }
+        }
+
+        &:nth-last-child(1){
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            font-weight: 400;
+            
+            span{
+                color: $white;
+            }
+            
+        }
+
+        .avatar-icon{
+            width: 33px;
+            height: 33px;
+            border: solid 1px $white;
+            border-radius: 100%;
+            margin-right: 6.48px;
+        }
+    }
+
+    hr{
+        width: 302px;
+        border: solid 1px $line-color;
+        margin-top: 24px;
+        margin-bottom: 0;
+    }
+}
