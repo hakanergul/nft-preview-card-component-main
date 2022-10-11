@@ -24,10 +24,10 @@ Users should be able to:
 
 ### Screenshot
 ## Laptop Screen
-![Laptop (1440x900)](./assets/ss_1440x900.png)(width:420px, height:360px)
+![Laptop (1440x900)](./assets/ss_1440x900.png){width:420px, height:360px}
 
 ## Mobile Screen
-![Mobile (375x667)](./assets/ss_375x667.png)(width:150px, height:285px)
+![Mobile (375x667)](./assets/ss_375x667.png){width:150px, height:285px}
 
 ### Links
 
