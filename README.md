@@ -23,11 +23,12 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-## Laptop Screen
-![Laptop (1440x900)](./assets/ss_1440x900.png){width:420px, height:360px}
+#### Laptop Screen
+<img src="./assets/ss_1440x900.png" width="420", height="360" />
 
-## Mobile Screen
-![Mobile (375x667)](./assets/ss_375x667.png){width:150px, height:285px}
+#### Mobile Screen
+<img src="./assets/ss_375x667.png" width="150", height="285" />
+
 
 ### Links
 
