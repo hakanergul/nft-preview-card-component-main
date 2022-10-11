@@ -27,7 +27,7 @@ Users should be able to:
 <img src="./assets/ss_1440x900.png" width="620" height="360" />
 
 #### Mobile Screen
-<img src="./assets/ss_375x667.png" width="200" height="285" />
+<img src="./assets/ss_375x667.png" width="170" height="285" />
 
 
 ### Links
