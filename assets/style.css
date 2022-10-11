@@ -5,6 +5,14 @@ h1, p, img {
   padding: 0;
 }
 
+a {
+  color: hsl(0deg, 0%, 100%);
+  text-decoration: none;
+}
+a:hover {
+  color: hsl(215deg, 51%, 70%);
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -31,8 +39,23 @@ body {
   margin: 24px 24px 0 24px;
 }
 .container .row:nth-child(1) {
+  position: relative;
   width: 302px;
   height: 302px;
+}
+.container .row:nth-child(1) .overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: lightblue;
+  border-radius: 8px;
+}
+.container .row:nth-child(1):hover .overlay {
+  opacity: 0.4;
+  cursor: pointer;
 }
 .container .row:nth-child(4) {
   display: flex;

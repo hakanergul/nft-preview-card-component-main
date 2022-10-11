@@ -17,6 +17,15 @@ h1, p, img
     padding: 0;
 }
 
+a{
+    color: $white;
+    text-decoration: none;
+    &:hover{
+        color: $primary-color;
+
+    }
+}
+
 body{
     display:flex;
     justify-content: center;
@@ -43,8 +52,25 @@ body{
         margin: 24px 24px 0 24px;
 
         &:nth-child(1){
+            position: relative;
             width: 302px;
             height: 302px;
+
+            .overlay{
+                position: absolute;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: 1s ease;
+                background-color: lightblue;
+                border-radius: 8px;
+            }
+
+            &:hover .overlay{
+                opacity: 0.4;
+                cursor: pointer;
+            }
         }
 
         &:nth-child(4){
