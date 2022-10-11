@@ -23,10 +23,10 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-..Laptop Screen..
+## Laptop Screen
 ![Laptop (1440x900)](./assets/ss_1440x900.png)
 
-..Mobile Screen..
+## Mobile Screen
 ![Mobile (375x667)](./assets/ss_375x667.png)
 
 ### Links
