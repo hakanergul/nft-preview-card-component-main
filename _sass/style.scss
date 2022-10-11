@@ -162,15 +162,13 @@ body{
         height: 543px;
 
         .row{
+            margin: 16px 16px 0 16px;   
 
             &:nth-child(1){
                 width: 278px;
                 height: 278px;
                 margin: 24px 24px 0 24px;
             }
-
-            margin: 16px 16px 0 16px;
-            
         }
 
     }
