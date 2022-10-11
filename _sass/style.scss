@@ -22,7 +22,6 @@ a{
     text-decoration: none;
     &:hover{
         color: $primary-color;
-
     }
 }
 
@@ -57,18 +56,27 @@ body{
             height: 302px;
 
             .overlay{
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 position: absolute;
                 top: 0;
                 height: 100%;
                 width: 100%;
                 opacity: 0;
                 transition: 1s ease;
-                background-color: lightblue;
+                background-color: $primary-color;
                 border-radius: 8px;
+
+                img{
+                    display: block;
+                    width: 48px;
+                    height: 48px;
+                }
             }
 
             &:hover .overlay{
-                opacity: 0.4;
+                opacity: 0.5;
                 cursor: pointer;
             }
         }
@@ -145,4 +153,26 @@ body{
         margin-top: 24px;
         margin-bottom: 0;
     }
+}
+
+@media (max-width: 375px) {
+   
+    .container{
+        width: 327px;
+        height: 543px;
+
+        .row{
+
+            &:nth-child(1){
+                width: 278px;
+                height: 278px;
+                margin: 24px 24px 0 24px;
+            }
+
+            margin: 16px 16px 0 16px;
+            
+        }
+
+    }
+    
 }
