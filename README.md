@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 ## Laptop Screen
-![Laptop (1440x900)](./assets/ss_1440x900.png =420x360)
+![Laptop (1440x900)](./assets/ss_1440x900.png)(width:420px, height:360px)
 
 ## Mobile Screen
 ![Mobile (375x667)](./assets/ss_375x667.png =150x285)
